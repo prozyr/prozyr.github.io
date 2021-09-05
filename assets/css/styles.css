@@ -605,6 +605,7 @@ img {
 
   .generate-pdf{
     display: inline-block;
+    cursor: pointer;
   }
 
   .section-title,.profile__description{

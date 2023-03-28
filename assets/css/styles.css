@@ -277,7 +277,7 @@ img {
     z-index: var(--z-fixed);
     transition: .3s;
   }
-  
+
   #resume-button{
     visibility: hidden;
   }

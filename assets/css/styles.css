@@ -217,7 +217,7 @@ img {
 /*========== CLASS CSS ==========*/
 
 .section {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .section-title{
@@ -235,13 +235,13 @@ img {
 .bd-container {
   max-width: 986px;
   width: calc(100% - 3rem);
-  margin-left: var(--mb-3);
+  margin-left: var(--mb-1);
   margin-right: var(--mb-3);
 }
 
 .bd-grid{
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .l-header{
@@ -400,7 +400,7 @@ img {
 
 .social__container{
   grid-template-columns: max-content;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .social__link{
@@ -454,7 +454,7 @@ img {
 }
 
 .education__data,.experience__data{
-  gap: .5rem;
+  gap: .25rem;
 }
 
 .education__title,.experience__title{
@@ -483,7 +483,7 @@ img {
 .skills__name,.languages__name{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
 }
 
 .skills__circle,.languages__circle{

@@ -182,6 +182,8 @@ body.scale-cv{
   width: 90px;
 }
 
+
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -398,6 +400,23 @@ img {
 }
 /*========== SOCIAL ==========*/
 
+.social__container {
+  display: flex;
+  justify-content: space-between; /* Domyślnie rozmieszcza elementy równomiernie na całej przestrzeni */
+  max-width: 600px; /* Możesz dostosować maksymalną szerokość, aby uniknąć zbyt rozciągniętego układu */
+  margin: 0 auto; /* Centralizuje kontener */
+}
+
+.social__column {
+  flex: 1; /* Daje kolumnom elastyczność, aby dopasować się do dostępnej przestrzeni */
+  margin-right: 20px; /* Dodaje margines między kolumnami */
+}
+
+.social__link {
+  display: block; /* Ustawia linki jako bloki, aby zajmowały pełną szerokość kolumny */
+  margin-bottom: 10px; /* Dodaje margines na dole linków */
+}
+
 .social__container{
   grid-template-columns: max-content;
   gap: 0.5rem;
@@ -537,6 +556,20 @@ img {
   color: var(--text-color-light);
   margin-bottom: .25rem;
 }
+
+/*======== LAW ==========*/
+.resume__right {
+  /* Dodajemy styl flex do .resume__right */
+  display: flex;
+  flex-direction: column;
+}
+
+.section.law {
+  /* Usuwamy display i flex-direction z .section.law */
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
 
 /* Scroll top */
 

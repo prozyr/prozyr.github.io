@@ -23,18 +23,67 @@
     <main class="l-main bd-container">
         <div class="resume" id="area-cv">
             <div class="resume__left">
-                
-                <section class="social section">
-                    <a href="cv.pl.html" class="menu-item">CV w języku polskim</a>
-                </section>
-                <section class="social section">
-                    <a href="cv.gb.html" class="menu-item">CV in English</a>
-                </section>
                 <!-- <section class="social section">
                     <a href="https://prozyr.github.io/PORTFOLIO/">PORTFOLIO</a>
                 </section> -->
             </div>
+            <div class="resume__right">
+                <section class="social section">
+                    <h2>Witaj!</h2>
+                    <hr class="separator">
+                    <p>Dziękuję za odwiedziny mojej strony, aktualnie znajduje się tutaj CV w wersji polskiej oraz angielskiej. <br> Zapraszam do współpracy</p>
+                
+                    <a href="cv-pl.html" class="btn">CV w języku polskim</a>
+                </section>
+                <section class="social section">
+                    <h2>Welcome!</h2>
+                    <hr class="separator">
+                    <p>Thank You for visiting my website, for now here is doc of my CV in polsih and english version. <br> I invite you to cooperate</p>
+
+                    <a href="cv.gb.html" class="btn">CV in English</a>
+                </section>
+            </div>
         </div>
     </main>
 </body>
+<style>
+    /* Resetowanie marginesów i paddingu dla przycisków */
+    a.btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #587fa8;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+        border: 2px solid transparent; /* Dodajemy border, ale przezroczysty, aby zwiększyć rozmiar */
+    }
+    a.btn:hover,
+    a.btn:focus {
+        background-color: #0056b3;
+        color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-color: #004494; /* Zmiana koloru borderu przy hover */
+    }
+    a.btn:active {
+        background-color: #003d7a;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Stylizacja poziomej linii */
+    hr.separator {
+        border: 0;
+        height: 1px;
+        background: #ccc; /* Kolor tła linii */
+        margin: 2px 0; /* Odstępy górne i dolne od linii */
+        width: 100%; /* Wypełnia całą szerokość kontenera */
+        opacity: 0.5; /* Przezroczystość linii */
+    }
+
+
+</style>
 </html>

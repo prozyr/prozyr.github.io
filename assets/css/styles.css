@@ -646,6 +646,7 @@ img {
 .project__title,
 .project__description-title {
   font-weight: bold;
+  margin-top: 18px;
   margin-bottom: 10px;
   padding-top: 26px;
 }

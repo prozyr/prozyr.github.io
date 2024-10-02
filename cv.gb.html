@@ -1,428 +1,600 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <!--========== FLAGS =========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"/>
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <!--========= ICONS==========-->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
-        <link rel="manifest" href="assets/ico/site.webmanifest">
-        <title>Żyrek Maciej CV</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Żyrek Maciej</a>
+<html lang="en">
 
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link">
-                                <i class="bx bx-home nav__icon"></i> Home
-                            </a>
-                        </li>
+<head>
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--========== FLAGS =========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--========= ICONS==========-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+    <title>Żyrek Maciej CV</title>
+</head>
 
-                        <li class="nav_item">
-                            <a href="#profile" class="nav_link">
-                                <i class="bx bx-user nav__icon"></i> Profile
-                            </a>
-                        </li>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Żyrek Maciej</a>
 
-                        <li class="nav_item">
-                            <a href="#education" class="nav_link">
-                                <i class="bx bx-book nav__icon"></i> Education
-                            </a>
-                        </li>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">
+                            <i class="bx bx-home nav__icon"></i> Home
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#skills" class="nav_link">
-                                <i class="bx bx-receipt nav__icon"></i> Skills
-                            </a>
-                        </li>
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class="bx bx-user nav__icon"></i> Profile
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#experience" class="nav_link">
-                                <i class="bx bx-briefcase-alt nav__icon"></i> Experience
-                            </a>
-                        </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class="bx bx-book nav__icon"></i> Education
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#certificates" class="nav_link">
-                                <i class="bx bx-award nav__icon"></i> Certificates
-                            </a>
-                        </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="bx bx-receipt nav__icon"></i> Skills
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#certificates" class="nav_link">
-                                <i class="bx bx-link-external nav__icon"></i> References
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class="bx bx-briefcase-alt nav__icon"></i> Experience
+                        </a>
+                    </li>
 
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="bx bx-grid-alt"></i>
-                </div>
-            </nav>
-        </header>
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class="bx bx-award nav__icon"></i> Certificates
+                        </a>
+                    </li>
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-
-                        <!-- Theme change button -->
-                        <div class="home__container section bd-grid">
-                            <div class="home__data bd-grid">
-                                <img src="assets/img/CV.jpg" alt="" class="home__img">
-                                <h1 class="home__title">Żyrek <b>Maciej</b></h1>
-                                <h3 class="home__profession">M.Sc. Eng. Computer Science <br>Engineer Automatic and Robotic</h3>
-                                <div>
-                                    <a download="" href="assets/pdf/Maciej_Zyrek_ENG.pdf" class="home__button-movil">Download</a>
-                                </div>
-                            </div>
-
-                            <div class="home__address bd-grid">
-                                <span class="home__information">
-                                    <i class="bx bx-map home__icon"></i> Poland Czechowice-Dziedzice
-                                </span>
-                                <span class="home__information">
-                                    <i class="bx bx-envelope home__icon"></i> prozyr@gmail.com
-                                </span>
-                                <span class="home__information">
-                                    <i class="bx bx-phone home__icon"></i> +48 511 142 073
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Theme change button-->
-                        <div class="change-theme" style="display: flex;
-                                                flex-direction: column;">
-                            <i class="bx bx-moon" title="theme-button" id="theme-button"></i>
-                            <i class="bx" title="PL/EN" id="language-button" style="margin-right: 35px;" >
-
-                            </i>
-                            <a class="bx" style="position: flex;margin-top: 25px;" href="cv.pl.html">
-                                <span class="fi fi-pl"></span>
-                            </a>
-
-                        </div><!-- Button to generate and download the pdf. Available for desktop. -->
-                        <a class="bx bx-download generate-pdf"  download="" title="Generate PDF" href="assets/pdf/Maciej_Zyrek_ENG.pdf"></a>
-                    </section>
-
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        <h2 class="section-title">
-                            Social
-                        </h2>
-                        <div class="social__container bd-grid">
-                            <div class="social__column">
-                                <a href="https://www.facebook.com/prozyr/" target="_blank" class="social__link">
-                                    <i class="bx bxl-facebook social__icon"></i> @prozyr
-                                </a>
-                                <a href="https://www.instagram.com/prozyr_/" target="_blank" class="social__link">
-                                    <i class="bx bxl-instagram social__icon"></i> @prozyr_
-                                </a>
-                            </div>
-                            <div class="social__column">
-                                <a href="https://www.linkedin.com/in/maciej-%C5%BCyrek-157841204/" target="_blank" class="social__link">
-                                    <i class="bx bxl-linkedin social__icon"></i> @prozyr
-                                </a>
-                                <a href="https://github.com/prozyr" target="_blank" class="social__link">
-                                    <i class="bx bxl-github social__icon"></i> @prozyr
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        <h2 class="section-title" id="profile">Profile</h2>
-                        <p class="profile__description">
-                            I am a young M.Sc. Engineer with a passion for new technologies and practical applications. My goal is continuous development and precise task execution, which translates into high-quality projects. I am passionate about programming, and I treat every challenge as an opportunity for learning and growth. Currently, I am focusing on research in training deep neural networks.
-                        </section>
-
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">MSc Eng. of Informatic</h3>
-                                    <span class="education__studies">Silesian University of Technology at department Automatic Electronic and Informatic</span>
-                                    <span class="education__year">2023 - 2024</span>
-                                </div>
-                            </div>
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Eng. of Automation and Robotic</h3>
-                                    <span class="education__studies">Silesian University of Technology at department Automatic Electronic and Informatic</span>
-                                    <span class="education__year">2019 - 2023</span>
-                                </div>
-                            </div>
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                </div>
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Mechatronics Technician</h3>
-                                    <span class="education__studies">Technical School ZSME in Żywiec</span>
-                                    <span class="education__year">2015 - 2019</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-
-
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
-
-                        <div class="skills__content bd-grid">
-                            <ul class="skill__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Html, CSS, JS
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> SQL
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> C/C++
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> TIA Siemens
-                                </li>
-                            </ul>
-
-                            <ul class="skill__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Sinumerik
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> MatLab
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> AutoCad
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Inventor
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                </div>
-
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
-
-                        <div class="experience__container bd-grid">
-                            
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Participation in Research Project</h3>
-                                    <span class="experience__company">March - May 2024 | Silesian University of Technology</span>
-                                    <p class="experience__description">Worked on advanced training techniques for deep neural network models performing super-resolution image reconstruction. The goal was to develop an innovative multi-task training technique to improve the sign recognition system.</p>
-                                </div>
-                            </div>
-
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Automation Programmer</h3>
-                                    <span class="experience__company">Holiday 2022 | ESOX Automotion</span>
-                                    <p class="experience__description">I gained knowledge and experience in programming in various environments, such as Visual Components, COGNEX and Step7 for the Siemens S7 300. The scope of work included offline programming of the Kuka robot, COGNEX vision system and process simulation and visualization. Each of these projects was a technological challenge that allowed me to develop my skills and broaden my knowledge.</p>
-                                </div>
-                            </div>
-
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Automatic Electrician</h3>
-                                    <span class="experience__company">Holiday's 2019 and 2020 | ESOX Automotion</span>
-                                    <p class="experience__description">Work on assembly, modernization and disassembly of production lines. It allowed to gain knowledge in the field of electricity and automation. My tasks included the assembly of wires, cable routes, networks, sensors and cameras, as well as sewing electrical cabinets. I was also a member of the group that carried out the electrical measurements.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Mechatronics</h3>
-                                    <span class="experience__company">Month of practice 2018 | HUF Poland</span>
-                                    <p class="experience__description">Internship in the Maintenance Engineering Department - Participation in the project concerning the system for feeding screws to the mold of the injection molding machine, which was a technological challenge requiring precision and knowledge in the field of automation. Participation in the assembly and calibration of sensors allowed me to gain valuable experience in this field.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-
-                        <h2 class="section-title">Certificates</h2>
-
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Introduction to PCBD Course (In progress)</h3>
-                                <p class="certificate__description">Designing printed circuit boards for modern electronic devices.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">SIEMENS SIMATIC S7-1500 (2022)</h3>
-                                <p class="certificate__description">Programming Siemens S7-1500 PLC series in the TIA Portal environment.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">INVENTOR Basic Course (2019)</h3>
-                                <p class="certificate__description">Basics of 3D modeling using Inventor.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">AUTOCAD Basic Course (2019)</h3>
-                                <p class="certificate__description">Basics of technical drawing using AUTOCAD.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">SEP Electrical Certification  (2019)</h3>
-                                <p class="certificate__description">Authorized to work with devices up to 1KV.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">SMC Pneumatic Systems Course (2018)</h3>
-                                <p class="certificate__description">Building pneumatic systems – Pneutrainer.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">State Exam E.19. (2018)</h3>
-                                <p class="certificate__description">Designing and programming mechatronic devices and systems.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">State Exam E.18. (2018)</h3>
-                                <p class="certificate__description">Operation of mechatronic devices and systems.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">State Exam E.3. (2018)</h3>
-                                <p class="certificate__description">Assembly of mechatronic devices and systems.</p>
-                            </div>
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Cisco CCNA (2016)</h3>
-                                <p class="certificate__description">Routing and switching routing, switching and essentials</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section" id="languages">
-                        <h2 class="section-title">Languages</h2>
-
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Polish (National)
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> English (B2)
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> German (Begginer)
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Italian (Begginer)
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section" id="interests">
-                        <h2 class="section-title">Interests</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class='bx bxs-terminal interests__icon'></i>
-                                <span class="interests_name">Programming</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class="bx bxs-plane-alt interests__icon"></i>
-                                <span class="interests_name">Automotive</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class="bx bx-book-content interests__icon"></i>
-                                <span class="interests_name">Travel</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class="bx bx-bot interests__icon"></i>
-                                <span class="interests_name">AI</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-cloud-drizzle interests__icon' ></i>
-                                <span class="interests_name">IoT</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bxs-network-chart interests__icon'></i>
-                                <span class="interests_name">DNN</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bxs-dice-6 interests__icon' ></i>
-                                <span class="interests_name">3D Printing</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bxs-cog interests__icon' ></i>
-                                <span class="interests_name">ML</span>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    <!--Law Section-->
-                    <section class="law section" id="law">
-                        <h2 class="section-title">Statement</h2>
-
-                        <div class="law__container">
-                            <p class="law__description">I consent to the processing of my personal data for the purpose of recruitment for the position I am applying for, as well as for future recruitment purposes.</p>
-                        </div>
-                    </section>
-                </div>
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class="bx bx-link-external nav__icon"></i> References
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </main>
 
-        <!--========== SCROLL TOP ==========-->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
 
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
-        </a>
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
 
-        <!--========== HTML2PDF ==========-->
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
+                    <!-- Theme change button -->
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/CV.jpg" alt="" class="home__img">
+                            <h1 class="home__title">Żyrek <b>Maciej</b></h1>
+                            <h3 class="home__profession">M.Sc. Eng. Computer Science <br>Engineer Automatic and Robotic
+                            </h3>
+                            <div>
+                                <a download="" href="assets/pdf/Maciej_Zyrek_ENG.pdf"
+                                    class="home__button-movil">Download</a>
+                            </div>
+                        </div>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i> Poland Czechowice-Dziedzice
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> prozyr@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> +48 511 142 073
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button-->
+                    <div class="change-theme" style="display: flex;
+                                                flex-direction: column;">
+                        <i class="bx bx-moon" title="theme-button" id="theme-button"></i>
+                        <i class="bx" title="PL/EN" id="language-button" style="margin-right: 35px;">
+
+                        </i>
+                        <a class="bx" style="position: flex;margin-top: 25px;" href="cv.pl.html">
+                            <span class="fi fi-pl"></span>
+                        </a>
+
+                    </div><!-- Button to generate and download the pdf. Available for desktop. -->
+                    <a class="bx bx-download generate-pdf" download="" title="Generate PDF"
+                        href="assets/pdf/Maciej_Zyrek_ENG.pdf"></a>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">
+                        Social
+                    </h2>
+                    <div class="social__container bd-grid">
+                        <div class="social__column">
+                            <a href="https://www.facebook.com/prozyr/" target="_blank" class="social__link">
+                                <i class="bx bxl-facebook social__icon"></i> @prozyr
+                            </a>
+                            <a href="https://www.instagram.com/prozyr_/" target="_blank" class="social__link">
+                                <i class="bx bxl-instagram social__icon"></i> @prozyr_
+                            </a>
+                        </div>
+                        <div class="social__column">
+                            <a href="https://www.linkedin.com/in/maciej-%C5%BCyrek-157841204/" target="_blank"
+                                class="social__link">
+                                <i class="bx bxl-linkedin social__icon"></i> @prozyr
+                            </a>
+                            <a href="https://github.com/prozyr" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i> @prozyr
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title" id="profile">Profile</h2>
+                    <p class="profile__description">
+                        I am a young M.Sc. Engineer with a passion for new technologies and practical applications. My
+                        goal is continuous development and precise task execution, which translates into high-quality
+                        projects. I am passionate about programming, and I treat every challenge as an opportunity for
+                        learning and growth. Currently, I am focusing on research in training deep neural networks.
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">MSc Eng. of Informatic</h3>
+                                <span class="education__studies">Silesian University of Technology at department
+                                    Automatic Electronic and Informatic</span>
+                                <span class="education__year">2023 - 2024</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Eng. of Automation and Robotic</h3>
+                                <span class="education__studies">Silesian University of Technology at department
+                                    Automatic Electronic and Informatic</span>
+                                <span class="education__year">2019 - 2023</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Mechatronics Technician</h3>
+                                <span class="education__studies">Technical School ZSME in Żywiec</span>
+                                <span class="education__year">2015 - 2019</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skill__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Pytorch
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C/C++
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html, CSS, JS
+                            </li>
+                        </ul>
+
+                        <ul class="skill__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> TIA Siemens
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MatLab
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Simulink
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Inventor
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Polish (National)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English (B2)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> German (A1)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Italian (A1)
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Work in Research Project</h3>
+                                <span class="experience__company">March 2024 (now) | Silesian University of
+                                    Technology</span>
+                                <p class="experience__description">Worked on advanced training techniques for deep
+                                    neural network models performing super-resolution image reconstruction. The goal was
+                                    to develop an innovative multi-task training technique to improve the sign
+                                    recognition system.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Automation Programmer</h3>
+                                <span class="experience__company">Holiday 2022 | ESOX Automotion</span>
+                                <p class="experience__description">I gained knowledge and experience in programming in
+                                    various environments, such as Visual Components, COGNEX and Step7 for the Siemens S7
+                                    300. The scope of work included offline programming of the Kuka robot, COGNEX vision
+                                    system and process simulation and visualization. Each of these projects was a
+                                    technological challenge that allowed me to develop my skills and broaden my
+                                    knowledge.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Automatic Electrician</h3>
+                                <span class="experience__company">Holiday's 2019 and 2020 | ESOX Automotion</span>
+                                <p class="experience__description">Work on assembly, modernization and disassembly of
+                                    production lines. It allowed to gain knowledge in the field of electricity and
+                                    automation. My tasks included the assembly of wires, cable routes, networks, sensors
+                                    and cameras, as well as sewing electrical cabinets. I was also a member of the group
+                                    that carried out the electrical measurements.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Mechatronics</h3>
+                                <span class="experience__company">Month of practice 2018 | HUF Poland</span>
+                                <p class="experience__description">Internship in the Maintenance Engineering Department
+                                    - Participation in the project concerning the system for feeding screws to the mold
+                                    of the injection molding machine, which was a technological challenge requiring
+                                    precision and knowledge in the field of automation. Participation in the assembly
+                                    and calibration of sensors allowed me to gain valuable experience in this field.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate FedCSIS 2024</h3>
+                            <p class="certificate__description">Publication of research during the conference in
+                                Belgrade.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Introduction to PCBD Course (In progress)</h3>
+                            <p class="certificate__description">Designing printed circuit boards for modern electronic
+                                devices.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">SIEMENS SIMATIC S7-1500 (2022)</h3>
+                            <p class="certificate__description">Programming Siemens S7-1500 PLC series in the TIA Portal
+                                environment.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">INVENTOR Basic Course (2019)</h3>
+                            <p class="certificate__description">Basics of 3D modeling using Inventor.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">AUTOCAD Basic Course (2019)</h3>
+                            <p class="certificate__description">Basics of technical drawing using AUTOCAD.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">SEP Electrical Certification (2019)</h3>
+                            <p class="certificate__description">Authorized to work with devices up to 1KV.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">SMC Pneumatic Systems Course (2018)</h3>
+                            <p class="certificate__description">Building pneumatic systems – Pneutrainer.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">State Exam E.19. (2018)</h3>
+                            <p class="certificate__description">Designing and programming mechatronic devices and
+                                systems.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">State Exam E.18. (2018)</h3>
+                            <p class="certificate__description">Operation of mechatronic devices and systems.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">State Exam E.3. (2018)</h3>
+                            <p class="certificate__description">Assembly of mechatronic devices and systems.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Cisco CCNA (2016)</h3>
+                            <p class="certificate__description">Routing and switching routing, switching and essentials
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bxs-terminal interests__icon'></i>
+                            <span class="interests_name">Programming</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests_name">Automotive</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-book-content interests__icon"></i>
+                            <span class="interests_name">Travel</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-bot interests__icon"></i>
+                            <span class="interests_name">AI</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-cloud-drizzle interests__icon'></i>
+                            <span class="interests_name">IoT</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-network-chart interests__icon'></i>
+                            <span class="interests_name">DNN</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-dice-6 interests__icon'></i>
+                            <span class="interests_name">3D Printing</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-cog interests__icon'></i>
+                            <span class="interests_name">ML</span>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--Law Section-->
+                <section class="law section" id="law">
+                    <h2 class="section-title">Statement</h2>
+
+                    <div class="law__container">
+                        <p class="law__description">I consent to the processing of my personal data for the purpose of
+                            recruitment for the position I am applying for, as well as for future recruitment purposes.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Second page -->
+        <br><br>
+
+        <div class="parent resume">
+            <div class="div1 resume__left" style="padding-top: 20px;">
+                <h3 class="project__description-title">Scientific publication</h3>
+                <p>Task-driven single-image super-resolution reconstruction of document scan.</p>
+            </div>
+            <div class="div2 resume__right" style="padding-top: 15px;">
+                <h3 class="project__description-title">Task-driven single-image super-resolution reconstruction of
+                    document scan.</h3>
+                <p class="project__description-text">This research builds upon the results of my master's thesis,
+                    focusing on super-resolution reconstruction methods using
+                    deep learning to enhance character recognition in OCR systems. Significant improvements have
+                    been achieved in both image
+                    quality and the effectiveness of OCR for low-resolution images.
+                    <br>link: <a
+                        href="https://annals-csis.org/proceedings/2024/pliks/7855.pdf">https://annals-csis.org/proceedings/2024/pliks/7855.pdf</a>
+                </p>
+            </div>
+            <div class="div3 resume__left">
+                <h3 class="project__description-title">Master's thesis</h3>
+                <p class="project__description-text">Task-driven training of deep neural networks for,superresolution
+                    image reconstruction.</p>
+                <h5>Deep Learning, Python, Pytorch, OpenCV</h5>
+            </div>
+            <div class="div4 resume__right">
+                <h3 class="project__description-title">Master's thesis</h3>
+                <p class="project__description-text">Training deep neural networks for super-resolution image
+                    reconstruction driven by Optical Character Recognition (OCR).
+                    The goal was to enhance both image quality and OCR performance on low-resolution images by
+                    developing an innovative
+                    training method. A multi-task loss function with dynamic task weighting was employed, significantly
+                    improving model
+                    learning efficiency.</p>
+            </div>
+            <div class="div5 resume__left">
+                <h3 class="project__description-title">.Net application</h3>
+                <p class="project__description-text">Showroom management application</p>
+                <h5>.NET, WPF, SQL</h5>
+            </div>
+            <div class="div6 resume__right">
+                <h3 class="project__description-title">.Net application</h3>
+                <p class="project__description-text">C# .Net WPF application using MS SQL database,
+                    allowing you to register a client, order, cost estimate and
+                    employee management</p>
+            </div>
+            <div class="div7 resume__left">
+                <h3 class="project__description-title">Sound Sniffier.</h3>
+                <p>Android sys. app</p>
+                <h4>Java, Android Studio</h4>
+            </div>
+            <div class="div8 resume__right">
+                <h3 class="project__description-title">Sound Sniffier.</h3>
+                <p class="project__description-text">Application for Android systems enabling acoustic analysis
+                    user's environment. User based on charts
+                    sound spectrum, histogram and signal is able to locate the source of emitted interference.</p>
+            </div>
+            <div class="div9 resume__left">
+                <h3 class="project__description-title">Chess board based camera calibration.</h3>
+                <p class="project__description-text"></p>
+                <h4>Python, OpenCV</h4>
+            </div>
+            <div class="div10 resume__right">
+                <h3 class="project__description-title">Chess board based camera calibration.</h3>
+                <p class="project__description-text">Calibration of the camera image by calculating its coefficients
+                    distortion
+                    based on the vertices of the chessboard. The project aims to remove the distortions caused
+                    By
+                    parameters
+                    external and internal cameras, e.g. "fisheye".</p>
+            </div>
+            <div class="div11 resume__left">
+                <h3 class="project__description-title">BEng Thesis</h3>
+                <p class="project__description-text">Cartesian robot for binary representation of images
+                    digital.</p>
+                <h4>Inventor, IoT, C++, RTOS</h4>
+            </div>
+            <div class="div12 resume__right">
+                <h3 class="project__description-title">BEng Thesis</h3>
+                <p class="project__description-text">Design and construction of a mechanical model of a robot, including
+                    the development of a control and power supply system
+                    for stepper motors. The project involved designing an ESP32 microcontroller-based RTOS system,
+                    incorporating Wi-Fi
+                    communication, process parameterization, and file-based command instruction transmission. The
+                    project required
+                    developing software capable of processing images and reproducing them as accurately as possible
+                    using a single color.
+                </p>
+            </div>
+            <div class="div13 resume__left">
+                <h3 class="project__description-title">Drone control</h3>
+                <p class="project__description-text">Image analysis, drone control.</p>
+                <h4>Python, OpenCV</h4>
+            </div>
+            <div class="div14 resume__right">
+                <h3 class="project__description-title">Drone control</h3>
+                <p class="project__description-text">Using the image from the DIJ drone camera and programming
+                    python, OpenCV environment allowed this development
+                    face detection. Based on,
+                    which analysis was carried out and the control of the drone that followed was developed
+                    behind the user.
+                </p>
+            </div>
+            <div class="div15 resume__left">
+                <h3 class="project__description-title">Simplified alarm and fire protection system.</h3>
+                <p class="project__description-text"></p>
+                <h4>Verilog</h4>
+            </div>
+            <div class="div16 resume__right">
+                <h3 class="project__description-title">Simplified alarm and fire protection system.</h3>
+                <p class="project__description-text">The aim of the project was to develop a real system model
+                    fire protection in the Verilog environment.
+                </p>
+            </div>
+            <div class="div17 resume__left">
+                <h3 class="project__description-title">Smart-Desk</h3>
+                <p class="project__description-text">Controlling desk peripherals using a microcontroller.</p>
+                <h4>IoT, C, C++</h4>
+            </div>
+            <div class="div18 resume__right">
+                <h3 class="project__description-title">Smart-Desk</h3>
+                <p class="project__description-text">Desk lighting control project using an application
+                    Android
+                    or a website hosted on the local network by the ESP8266 microcontroller. Additionally, it allows
+                    for management
+                    controllable power sockets.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
